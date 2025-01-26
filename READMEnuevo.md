@@ -8,7 +8,6 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
 
 ## Comandos git básicos. ***Todas las capturas se pueden encontrar en un documento de Google con enlace el siguiente*** [doc-de-la-practica-1](https://docs.google.com/document/d/1KuS_bCljfeKOwIp8GDpETYFw2ZiUqJ0Vf0PMfUawdmE/edit?tab=t.0)
 
-```
 **git clone https://github.com/gitt-3-pat/p1 **
 ### copia el repositorio remoto ubicado en la url al equipo local, creando una nueva carpeta con los archivos del proyecto 
 **git status **
@@ -24,7 +23,7 @@ git push
 ###crea rama llamada feature/1 y se cambia automáticamente a ella. se usa para trabajar en una nueva funcionalidad o tarea sin afectar la rama principal. 
 **git checkout main **
 ###cambia a la rama principal main. Útil cuando se ncesita volver a trabajar en la rama base del proyecto. 
-```
+
 
 ## ¿Cómo escribir un README.md con formato?
 
