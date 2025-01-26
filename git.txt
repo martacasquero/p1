@@ -1,0 +1,71 @@
+git clone https://github.com/gitt-3-pat/p1
+
+-qué hace: clona un repositorio remoto en mi máquina local 
+-para qué lo he usado: para descargar copia del proyecto a mi equipo 
+-logs:  Cloning into 'p1'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+Receiving objects: 100% (6/6), done.
+
+
+git status 
+
+-qué hace: muestra el estado actual del repositorio 
+-para qué lo he usado: para verificar los archivos que han sido añadidos o modificados
+-logs:  On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+git add 
+
+-qué hace: añade todos los archivos al staging área 
+-para qué lo he usado: para preparar los archivos para el commit 
+-logs: no muestra salida pero el git status muestra que está preparado para el commit 
+
+
+git commit -m "TU MENSAJE" 
+
+
+-qué hace: confirma los cambios preparados con un mensaje  
+-para qué lo he usado: para guardar los cambios en el historial 
+-logs: [main 56a5a0c] Commit de la prueba1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prueba.txt
+
+
+git push 
+
+
+-qué hace: sube los commits al repositorio remoto 
+-para qué lo he usado: para sincronizar el repositorio local con el remoto 
+-logs: Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 160.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/martacasquero/p1.git
+   07720b5..56a5a0c  main -> main
+
+
+
+git checkout -b feature/1 rama-prueba 
+
+-qué hace:crea nueva rama y cambia a ella 
+-para qué lo he usado: para trabajar en nueva fucionalidad sin afectar a la rama pp
+-logs: Switched to a new branch 'rama-prueba'
+
+git checkout main 
+
+-qué hace: cambia de rama 
+-logs: Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+
+
+
+
+
